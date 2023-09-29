@@ -2,4 +2,8 @@ console.log ('hola mundo desde node js, esto se vera en consola, esto es  backen
 
 console.log(2*5)
 
-console.log (window)
+console.log(global)
+
+setInterval(function(){
+    console.log('hola nodejs')
+},1000)
